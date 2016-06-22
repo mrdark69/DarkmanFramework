@@ -11,6 +11,8 @@ function Darkmanajax(jsondata,urls,callback){
 
 		success: callback,
 		error: function(xhr, textStatus, thrownError) {
+
+			console.log(thrownError);
 //                                alert(xhr.status);
 //                                alert(thrownError);
 //                                alert(textStatus);
@@ -30,6 +32,8 @@ function Darkmanajax_form(formdata,urls,callback){
 
 		success: callback,
 		error: function(xhr, textStatus, thrownError) {
+
+			console.log(thrownError);
 //                                alert(xhr.status);
 //                                alert(thrownError);
 //                                alert(textStatus);
