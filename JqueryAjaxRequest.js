@@ -5,7 +5,7 @@ function Darkmanajax(jsondata,urls,callback){
 	$.ajax({
 
 		type: 'post', // or post?
-		dataType: 'html',
+		dataType: 'json',
 		url: urls,
 		data: jsondata,
 
@@ -26,7 +26,7 @@ function Darkmanajax_form(formdata,urls,callback){
 	$.ajax({
 
 		type: 'post', // or post?
-		dataType: 'html',
+		dataType: 'json',
 		url: urls,
 		data: post,
 
